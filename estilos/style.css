@@ -93,6 +93,7 @@ a:hover {
 
 a.externo {
     background-color: var(--cor5);
+    padding: 5px;
 }
 
 a.externo::after {
