@@ -11,7 +11,7 @@
     --cor2: #3AA8FF;
     --cor3: #0000E0;
     --cor4: #0F007D;
-    --cor5: #DEB500;
+    --cor5: #e9cf5d;
 
     --fonte-padrao: 'Roboto', Arial, Helvetica, sans-serif;
     --fonte-destaque: 'Tourney', cursive;
@@ -89,6 +89,10 @@ a:hover {
     text-decoration: underline;
     font-size: 1.5em;
     padding: 10px;
+}
+
+a.externo {
+    background-color: var(--cor5);
 }
 
 a.externo::after {
