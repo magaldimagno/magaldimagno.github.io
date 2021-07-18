@@ -11,7 +11,8 @@
     --cor2: #3AA8FF;
     --cor3: #0000E0;
     --cor4: #0F007D;
-    --cor5: #e9cf5d;
+    --cor5: #e9cf5d8e;
+    --cor6: #daa520;
 
     --fonte-padrao: 'Roboto', Arial, Helvetica, sans-serif;
     --fonte-destaque: 'Tourney', cursive;
@@ -34,6 +35,7 @@ header {
     color: white;
     padding: 20px;
     text-align: center;
+    box-shadow: 0px 5px 14px 4px rgba(0, 0, 0, 0.404);
 }
 
 header > h1 {
@@ -42,6 +44,7 @@ header > h1 {
     width: 600px;
     margin: auto;
     padding: 8px;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.383);
 }
 
 header > p {
@@ -57,15 +60,29 @@ main {
     min-width: 600px;
     max-width: 1000px;
     padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+    box-shadow: 0px 5px 8px 6px rgba(0, 0, 0, 0.404);
 }
 
 main > h2 {
     font-family: var(--fonte-título);
-    background-image: linear-gradient(to left, white, var(--cor2));
-    color: var(--cor4);
-    font-size: 2em;
+    background-image: linear-gradient(to left, white, var(--cor4));
+    color: var(--cor6);
+    font-size: 2.5em;
     padding: 5px;
-    margin: 5px 0px;
+    margin: 5px;
+    border-radius: 3px;
+    text-indent: 5px;
+}
+
+article {
+    margin-left: 25px;
+}
+
+main h3 {
+    font-family: var(--fonte-destaque);
+    font-size: 1.8em;
+   /** text-indent: 25px; */
 }
 
 main p {
@@ -98,13 +115,4 @@ a.externo {
 
 a.externo::after {
     content: ' 🔗';
-}
-
-li {
-    list-style-type: none;
-    padding: 20px;
-}
-
-li h3::before {
-    content: '✔ ';
 }
