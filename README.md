@@ -6,7 +6,7 @@ Meus arquivos compilados aqui para facilitar a organização
 
 Todos os cursos que fiz no [CursoemVideo](https://www.cursoemvideo.com).
 
-<img align="right" src="imagens/html-e-css-logo.png">
+<img align="right" src="imagens/logo-html-css.png">
 
 ### HTML5 e CSS3
 
