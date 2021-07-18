@@ -1,1 +1,2 @@
-# [magaldimagno.github.io](https://magaldimagno.github.io)
+# Repositório Público de Eduardo Magno
+
