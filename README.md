@@ -12,4 +12,4 @@ Os módulos 1 e 2 do **Curso de HTML5 e CSS3** do CursoemVideo, com os desafios 
 
 [Clique aqui](https://github.com/magaldimagno/html-css) para acessar o repositório
 
-<img align="right" src:"imagens/html-e-css-logo.png">
+<img align="right" src="imagens/html-e-css-logo.png">
